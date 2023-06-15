@@ -86,21 +86,3 @@ python main.py recognition -c config/st_gcn/<dataset>/test.yaml --weights <path 
 If you want to perform anomalous behavior analysis, you can save the output of the last layer of convolution of st-gcn as a PKL file, and run the ```tools/dbscan.py``` to output the clustering results with the clustering map afterwards
 
 
-
-## Citation
-Please cite the following papers if you use this repository in your reseach.
-```
-@inproceedings{stgcn2018aaai,
-  title     = {Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition},
-  author    = {Sijie Yan and Yuanjun Xiong and Dahua Lin},
-  booktitle = {AAAI},
-  year      = {2018},
-}
-```
-
-## Contact
-For any question, feel free to contact
-```
-Chaopeng Guo     : ys016@ie.cuhk.edu.hk
-Yuming Chen :2290126@stu.neu.edu.cn
-```
